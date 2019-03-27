@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logMessages>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Start getting all customers.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T00:50:07.2116256+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Retrieving customers to response.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T00:50:12.7655974+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Start getting customer with id 2.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T00:50:38.5563356+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Retrieving customer with id 2 to response.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T00:50:38.7080327+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Start getting all customers.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T00:52:58.9343467+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Retrieving customers to response.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T00:53:00.7559076+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.OrdersController</loggerName>
+    <level>Info</level>
+    <message>Start getting all orders of customer with id 1.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\OrdersController.cs</messageSource>
+    <timeStamp>2019-03-28T01:00:33.2530951+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.OrdersController</loggerName>
+    <level>Info</level>
+    <message>Retrieving orders of customer with id 1 to response.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\OrdersController.cs</messageSource>
+    <timeStamp>2019-03-28T01:00:34.0728715+03:00</timeStamp>
+  </logMessage>
+</logMessages>
