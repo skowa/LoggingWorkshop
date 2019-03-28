@@ -72,4 +72,22 @@
     <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\OrdersController.cs</messageSource>
     <timeStamp>2019-03-28T01:00:34.0728715+03:00</timeStamp>
   </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Start getting customer with id 2.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T11:26:16.5996216+03:00</timeStamp>
+  </logMessage>
+  <logMessage>
+    <machineName>SKOWA</machineName>
+    <exception />
+    <loggerName>LoggingSample.Controllers.CustomersController</loggerName>
+    <level>Info</level>
+    <message>Retrieving customer with id 2 to response.</message>
+    <messageSource>D:\documents\epam\lab\LoggingSample\LoggingSample\Controllers\CustomersController.cs</messageSource>
+    <timeStamp>2019-03-28T11:26:59.5522294+03:00</timeStamp>
+  </logMessage>
 </logMessages>

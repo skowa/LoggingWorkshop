@@ -10,6 +10,8 @@ namespace LoggingSample_BLL.LogTargets
     [Target("XmlTarget")]
     public sealed class XmlTarget : TargetWithLayout
     {
+        private static readonly object Locker = new object();
+
         public XmlTarget()
         {
             this.Host = Environment.MachineName;
@@ -30,17 +32,20 @@ namespace LoggingSample_BLL.LogTargets
                 new XElement("timeStamp", logEvent.TimeStamp));
 
             string filePath = LogManager.Configuration.Variables["xmlFilePath"].Render(logEvent);
-            if (!File.Exists(filePath))
+            lock(Locker)
             {
-                var document = new XDocument(new XElement("logMessages", xElement));
-                document.Save(filePath);
-            }
-            else
-            {
-                var document = XDocument.Load(filePath);
-                XElement root = document.Element("logMessages");
-                root.Add(xElement);
-                document.Save(filePath);
+                if (!File.Exists(filePath))
+                {
+                    var document = new XDocument(new XElement("logMessages", xElement));
+                    document.Save(filePath);
+                }
+                else
+                {
+                    var document = XDocument.Load(filePath);
+                    XElement root = document.Element("logMessages");
+                    root.Add(xElement);
+                    document.Save(filePath);
+                }
             }
         }
     }
